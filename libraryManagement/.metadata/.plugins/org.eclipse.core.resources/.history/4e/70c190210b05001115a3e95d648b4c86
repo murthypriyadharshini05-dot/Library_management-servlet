@@ -1,0 +1,5 @@
+package in.kce.book.services;
+
+public class Administrator {
+
+}

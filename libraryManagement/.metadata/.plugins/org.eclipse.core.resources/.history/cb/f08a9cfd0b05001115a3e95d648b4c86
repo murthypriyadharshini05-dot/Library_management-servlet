@@ -1,0 +1,5 @@
+package in.kce.book.bean;
+
+public class AuthorBean {
+
+}

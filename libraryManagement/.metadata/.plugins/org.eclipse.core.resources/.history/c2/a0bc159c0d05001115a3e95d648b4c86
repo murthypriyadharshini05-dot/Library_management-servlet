@@ -1,0 +1,29 @@
+package in.kce.book.servlets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+
+import in.kce.book.bean.BookBean;
+
+/**
+ * Servlet implementation class ViewServlet
+ */
+@WebServlet("/ViewServlet")
+public class ViewServlet extends HttpServlet {
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/html");
+		PrintWriter out=response.getWriter();
+		HttpSession session=request.getSession();
+		BookBean bookBean =(BookBean)session.getAttribute("book");
+		out.print("<html><body>");
+		out.print("Book title: " + bookBean.getBookName() +"<br><br>");
+		out.print("Author Name : " + bookBean.getAuthor().getAuthorName() +"<br><br>");
+		out.print("Author Contact: " + bookBean.getAuthor().getContactNo() +"<br><br>");
+		out.print("Book Price: " + bookBean.getCost() +"<br><br>");
+		out.print("Book ISBN: " + bookBean.getIsbn()+"<br><br>");
+		out.print("</body></html>");
+	}
+
+}
