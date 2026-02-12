@@ -33,22 +33,13 @@ Eclipse IDE
 
 MySQL (if used for DB)
 
-LibraryManagement/
-│
-├── src/
-│   ├── servlets/
-│   ├── dao/
-│   ├── bean/
-│   └── service/
-│
-├── WebContent/
-│   ├── AddBook.html
-│   ├── ViewBook.html
-│   ├── Menu.html
-│   └── WEB-INF/
-│
-└── web.xml
 
+📂 Project Structure:
+
+
+<img width="947" height="503" alt="image" src="https://github.com/user-attachments/assets/708f109a-fa94-45cb-abb0-252f91b44e65" />
+
+Output Screenshots:
 
 
 <img width="633" height="377" alt="image" src="https://github.com/user-attachments/assets/b7f4ac86-d258-470f-9c87-a1759a174775" />
