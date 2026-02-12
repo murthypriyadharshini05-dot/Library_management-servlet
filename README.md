@@ -33,7 +33,6 @@ Eclipse IDE
 
 MySQL (if used for DB)
 
-Project Structure:
 LibraryManagement/
 │
 ├── src/
@@ -49,6 +48,7 @@ LibraryManagement/
 │   └── WEB-INF/
 │
 └── web.xml
+
 
 
 <img width="633" height="377" alt="image" src="https://github.com/user-attachments/assets/b7f4ac86-d258-470f-9c87-a1759a174775" />
